@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .parent{
+         border: 2px solid;
+         width: 300px;
+         height: 300px;
+         position: relative;  
+         background-color:blue; 
+        }
+        .child{
+            border:1px solid;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            background-color: red;
+            bottom:-155px;
+            right: -10px;
+        }
+    </style>
+
 </head>
 <body>
+    <div class="parent">
+        <h2>Parent </h2>
+        <div class="child">
+            <h2>Child</h2>
+
+        </div>
+
+    </div>
     
 </body>
 </html>
